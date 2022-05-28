@@ -1,0 +1,107 @@
+ body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #6fbfbf;
+  
+}
+h2{
+    font-size: 2.0rem;
+    color: #6fbfbf;
+    font-weight: normal;
+}
+
+h3{
+    color: #11999e;
+}
+.top-container{
+    background-color: #E8F9FD;
+    padding-top: 100px;
+    position: relative;
+}
+.pro{
+    text-decoration: underline;
+}
+.top-cloud{
+    position: absolute;
+    right: 200px;
+
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.skill-row{
+    width: 50%;
+    margin:100px  auto 100px auto;
+    
+    line-height: 2;
+    position: relative;
+    
+   
+}
+.html,.css{
+    width: 25%;
+}
+.middle-container{
+    margin: 100px 0;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+p{
+    line-height: 2;
+}
+hr{
+    border: 6px dotted lightgrey;
+    border-bottom: none;
+    width: 4%;
+}
+.contact-me{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 10px 0;
+}
+a{
+    color: rgb(7, 70, 78);
+    margin: 5px 10px;
+    text-decoration: none;
+}
+.btn {
+    background: #106c83;
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  @media screen and (max-width:768px)  {
+    .bottom-cloud{
+        position: absolute;
+        left: 10px;
+        bottom: 200px;
+    }
+    .top-cloud{
+        position: absolute;
+        top:10px;
+        right: 50px;
+    
+    }
+  }
+  @media screen and (min-width:768px)  {
+
+  } 
+ 
